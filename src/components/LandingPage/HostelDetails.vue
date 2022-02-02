@@ -2,11 +2,11 @@
     <div class="HostelDetails">
         <div class="box">
             <attendance />
-
+    <router-link to='/'>Home</router-link>
     </div>
     <div class="box">
             <billing />
-
+      <router-link to='/test'>Test</router-link>
     </div>
     </div>
 </template>
@@ -29,6 +29,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
         /* padding: 2rem; */
         height: 28vh;
         width: 100%;
